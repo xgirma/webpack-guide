@@ -19,5 +19,8 @@
   "homepage": "https://github.com/xgirma/webpack-demo#readme",
   "devDependencies": {
     "webpack": "^3.7.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
