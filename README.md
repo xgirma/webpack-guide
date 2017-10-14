@@ -1,2 +1,13 @@
 # Webpack Getting Started
-From https://webpack.js.org/guides/getting-started/
+
+Getting started 
+
+    ./node_modules/.bin/webpack src/index.js dist/bundle.js
+
+
+
+
+
+
+## Source
+(1)[https://webpack.js.org/guides/getting-started/]
