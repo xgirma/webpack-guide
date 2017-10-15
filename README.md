@@ -33,4 +33,12 @@ Tree shaking: dead-code elimination.
     use ES2015 module syntax (`import` and `export`)
     include minifier that suports dead code removal (e.g. `uglifyjs-webpack-plugin`)
 
+Production
+
+The goals of development and production builds differ greatly. In development, we want strong source mapping and a localhost server with live reloading or hot module replacement. In production, our goals shift to a focus on minified bundles, lighter weight source maps, and optimized assets to improve load time. With this logical separation at hand, we typically recommend writing separate webpack configurations for each environment.
+
+    enable source mapping
+
+
+
 Source: [webpack v3.7.1 guide](https://webpack.js.org/guides/)

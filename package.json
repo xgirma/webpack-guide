@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "webpack --watch",
-    "start": "webpack-dev-server --open",
-    "server": "node server.js",
-    "build": "webpack"
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +29,7 @@
     "webpack": "^3.7.1",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0",
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
