@@ -28,5 +28,9 @@ Hot Module Replacement (or HMR) should only be used in development.
 
     webpack-dev-server --hotOnly
 
+Tree shaking: dead-code elimination.
+
+    use ES2015 module syntax (`import` and `export`)
+    include minifier that suports dead code removal (e.g. `uglifyjs-webpack-plugin`)
 
 Source: [webpack v3.7.1 guide](https://webpack.js.org/guides/)
