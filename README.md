@@ -24,5 +24,9 @@ Adjusting your IDE: disable `safe write`
 
     Preferences > Appearance & Behavior > System Settings > uncheck `safe write`
 
+Hot Module Replacement (or HMR) should only be used in development.
+
+    webpack-dev-server --hotOnly
+
 
 Source: [webpack v3.7.1 guide](https://webpack.js.org/guides/)
