@@ -45,7 +45,9 @@ Community provided bundle analysis modules:
 
     webpack-chart, webpack-visualizer, webpack-bundle-analyzer
     
+Lazy Loading
 
+Involves splitting code and loading it once the user has done something. 
 
 
 
