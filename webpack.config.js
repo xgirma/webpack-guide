@@ -1,5 +1,6 @@
 const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
     entry: {
@@ -8,7 +9,10 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin({
-            title: 'Code Spliting'
+            title: 'Code Splitting'
+        }),
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'common' //  Specify the common bundle's name
         })
     ],
     output: {

@@ -35,7 +35,7 @@ Allows you to split your code into various bundles which can then be loaded on d
     Prevent duplication: use the CommonsChunkPlugin
     Dynamic Imports: via inline finction call
     
-Entry point code splitting, if there are duplicate modules, like `lodash` between entry chunks they will be included in both bundles. Can't be used to dynamically split code.  
+Entry point code splitting: if there are duplicate modules, like `lodash` between entry chunks they will be included in both bundles. Can't be used to dynamically split code.  
 
 
 
