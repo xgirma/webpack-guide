@@ -149,14 +149,14 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-function getComponent() {
-    return __webpack_require__.e/* import() */(0).then(__webpack_require__.bind(null, 1)).then( _ => {
-        let element = document.createElement('div');
+async function getComponent() {
+    let element = document.createElement('div');
 
-        element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    const _ = await __webpack_require__.e/* import() */(0).then(__webpack_require__.bind(null, 1));
 
-        return element;
-    }).catch(error => 'An error occurred while loading the component');
+    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+
+    return element;
 }
 
 getComponent().then(component => {

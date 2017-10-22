@@ -37,6 +37,16 @@ Allows you to split your code into various bundles which can then be loaded on d
     
 Entry point code splitting: if there are duplicate modules, like `lodash` between entry chunks they will be included in both bundles. Can't be used to dynamically split code.  
 
+Community provided code splitting modules: 
+
+    ExtractTextPlugin, bundle-loader, promise-loader
+    
+Community provided bundle analysis modules: 
+
+    webpack-chart, webpack-visualizer, webpack-bundle-analyzer
+    
+
+
 
 
 
