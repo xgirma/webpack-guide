@@ -49,6 +49,12 @@ Lazy Loading
 
 Involves splitting code and loading it once the user has done something. 
 
+Caching
+
+Files produced by webpack compilation remain cached unless their contents has changed. 
+
+
+
 
 
 
