@@ -1,4 +1,4 @@
-# Webpack Demo
+# Webpack Guide
 
 Webpack: input (src/index.js) -> output (dist/bundle.js)
 
