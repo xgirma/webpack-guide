@@ -1,4 +1,4 @@
-# Webpack Demo
+# Webpack Guide
 
 Webpack: input (src/index.js) -> output (dist/bundle.js)
 
@@ -54,6 +54,13 @@ Caching
 Files produced by webpack compilation remain cached unless their contents has changed. 
 
 `CommonsChunkPlugin` can extract webpack's boilerplate and manifest which can change with every build. 
+
+The `vendor` instance of the CommonsChunkPlugin must be included prior to the 'runtime' instance.
+
+Module identifiers: 
+
+    NamedModulesPlugin: developemnent 
+    HashedModuleIdsPlugin: production 
 
 
 
