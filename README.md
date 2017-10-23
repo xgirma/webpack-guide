@@ -53,7 +53,7 @@ Caching
 
 Files produced by webpack compilation remain cached unless their contents has changed. 
 
-
+`CommonsChunkPlugin` can extract webpack's boilerplate and manifest which can change with every build. 
 
 
 
